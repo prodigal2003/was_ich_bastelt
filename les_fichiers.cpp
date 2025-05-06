@@ -3,7 +3,7 @@
 #include<fstream >
 using namespace std ; 
 // essayons de creer une Fontion pour lire mon Fichier .txt 
-/*void LireFichier (const string& nomFichier ) {
+/*void LireFichier (const string& nomFichier ) & reference non Modifiable pas de copie on travaille directemnet sur l'originale cela permat d'economiser l'espace de Stockage {
     ifstream f("nomFichier ");
     if (!f.is_open()){
     cerr << "ein Fehler ist aufgetreten "; 
