@@ -13,8 +13,8 @@ int main (){
     cout << addition (name , Vorname); 
     char v {'b'}; 
     char c {'a'};
-    cout << addition ( v , c ); 
-
+    cout << addition ( v , c )<< endl ; 
+    int a ; 
     //cout << addition (  Alain, Marcel )<< endl ; 
     return 0;
     

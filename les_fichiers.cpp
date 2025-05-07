@@ -22,13 +22,16 @@ int main () {
       cerr << "ein Fehler ist aufgetreten "; 
       return 1 ;
     }
+
+
   if (f.is_open()){
     /*comme par exemple dans la Programmation d'un Jeux on peut enregisstrer le Nomm , les Score .....*/
       //int score {110};
       //f << score ; 
       //f << "Hello World "; 
       string name {" "}; 
-      f >> name; //  permet de lire le Premier Nom present dans la liste (de animals.txt)
+      f >> name; //  permet de lire le Premier Nom present dans la liste (de animals.txt)  c'est un flux d'entree 
+      // cela fonctionne comme cin mais au lieu de lire depuis le Clavier il le fais depuis un Fichier 
       cout << name <<endl ;
       string line {""} ;
       getline(f>> std::ws, line );
@@ -45,7 +48,8 @@ int main () {
       while (f>>name ) 
       cout << name << endl; 
       {
-        /* code */
+        
+      /* code */
       }
     
  }  
