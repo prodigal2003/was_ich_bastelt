@@ -9,7 +9,7 @@
     l'interieur car il est inclut dans util.cpp via #include"util.hpp"*/
     essaie::fichier(); 
     Util::essaie_2(); 
-    void test() ; 
+    test() ; 
     return 0 ; 
    
   }

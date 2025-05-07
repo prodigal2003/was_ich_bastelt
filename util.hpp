@@ -15,5 +15,6 @@
     void essaie_2 (); 
 
   }
+  void test (); 
   
 #endif   

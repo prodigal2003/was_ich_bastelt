@@ -17,7 +17,9 @@ void Util::essaie_2(){
   cout << "ceci est un autre essaie numeeo 2 pour comprendre les Syntaxe de c++ " << endl ; 
 }
 void test (){
-  /*cout << R"(ceci est une variable globale accecible partout dans le programme Quand tu déclares une variable 
-  ou une fonction en dehors de tout namespace, elle est accessible partout sans préfixe)" ; */
+  cout << R"(ceci est une variable globale accecible partout dans le programme Quand tu déclares une variable 
+  ou une fonction en dehors de tout namespace, elle est accessible partout sans préfixe se comporte comme une 
+  Variable globale et le )" << endl ; 
+// le R"(:::)" permet de saisir du texte brute en fait un long Texte . 
   cout <<"guten Morgen ";
 }
