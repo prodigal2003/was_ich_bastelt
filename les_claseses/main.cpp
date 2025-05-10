@@ -2,6 +2,8 @@
 using namespace std; 
 #include "klasse.hpp"
 int main (){
-    Point{}; 
+    Point p {}; 
+    Point p2{p};
+     ~Point(); 
 return 0; 
 }
