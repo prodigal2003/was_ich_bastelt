@@ -4,6 +4,6 @@ using namespace std;
 int main (){
     Point p {}; 
     Point p2{p};
-     ~Point(); 
+    
 return 0; 
 }

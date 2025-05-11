@@ -11,5 +11,9 @@ Point::Point(const Point& p )
 {
 cout << "copie d'un point" << endl ; 
 }
-
+ Point::~Point()
+ 
+{
+    cout << "Destruction de l'Objet;" << this <<  endl ; 
+}
  
