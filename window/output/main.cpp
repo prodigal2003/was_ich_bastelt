@@ -9,7 +9,8 @@ int main ()
  Windows oldAPP { "redence Evil", 6, 7}; // ceci est une surchage de constructeurs alors le Compilateur procede as un overload resolution et
  // juge en Fonction du Nombre d'arguments 
   
- newapp.run(); // appel de la Methode 
+ newapp.run(); // appel de la Methode  
+ 
 
     return 0 ; 
 }
