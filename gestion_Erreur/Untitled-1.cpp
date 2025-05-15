@@ -1,11 +1,11 @@
 #include <iostream> 
 using namespace std; 
 #include <string>
-#include <cassert>
+#include <cassert> // pour sigenaler les Erreures du programmeur 
 void createPlayer(string name  , int number  ){
     if (number < 0 )
     assert (number > 0 && "die Spielersnummer ist kleiner als null "); 
-    // donc si nunmber > o le Programme comtinue mais dans le cas contraire il est interrompu 
+    // donc si nunmber > o le Programme comtinue mais dans le cas contraire il est interrompu par l'assertion
     cout << " nom du personnage "<< name << " Nummero du personnage " << number ; 
 
 }
