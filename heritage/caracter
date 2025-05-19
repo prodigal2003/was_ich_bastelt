@@ -1,0 +1,7 @@
+#include "caracter"
+
+
+caracter::caracter()
+{
+
+}
