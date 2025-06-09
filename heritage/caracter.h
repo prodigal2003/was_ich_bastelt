@@ -3,7 +3,7 @@
 #include <heritage.h>
 #include <string >
 
-class Caracter: public Unit  // la Calss Caracter herite publiquement de Unit .
+class Caracter: public Unit  // la Calss Caracter herite publiquement de Unit .on garde les elements qui etaint publique dans la class unit
 {
     using Unit::Unit;
 public:
