@@ -2,7 +2,11 @@
 #  include <string >
 using namespace std ;
 #include <heritage.h>
-Unit::Unit(int id , const string& name ) noexcept : _id (id), _name(name)
+Unit::Unit(int id , const string& name ) noexcept : _id (id), _name(name) // Initialisation directe
+/* il pouvaient etre remplacer par :   {
+    _id = id;
+    _name = name;
+}*/
 {
 
 }
